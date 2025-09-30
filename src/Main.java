@@ -7,6 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in); //scanner to intake information provided by customer
 
         // Get user input
+        System.out.println("Do not enter any symbols such as $ or % when entering info!!");
         System.out.print("Enter total bill amount ($):");
         double totalBill = input.nextDouble(); //asks for totalBill, stores in variable
 
@@ -24,6 +25,7 @@ public class Main {
 
         //prints out all information in a clean format
         System.out.println();
+        System.out.println("----------Bill----------");
         System.out.println("Total Tip: " +  tipAmount);
         System.out.println("Total Bill (with Tip): " + totalWithTip);
         System.out.println("Tip Per Person: " + tipPerPerson);
